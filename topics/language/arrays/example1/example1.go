@@ -11,12 +11,13 @@ func main() {
 
 	// Declare an array of five strings that is initialized
 	// to its zero value.
-	var strings [5]string
+	var strings [6]string
 	strings[0] = "Apple"
 	strings[1] = "Orange"
 	strings[2] = "Banana"
 	strings[3] = "Grape"
 	strings[4] = "Plum"
+	strings[5] = "Mangoes"
 
 	// Iterate over the array of strings.
 	for i, fruit := range strings {
